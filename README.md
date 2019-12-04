@@ -1,24 +1,22 @@
-layout: sidebar
-style: light
+<layout: sidebar
+style: light>
 
 <nav>
     <div>
                     <div class="myNavDiv">
             <ul class="myNavUl">    
                 <li class="navLink" >
-                  <a class="navTitle" href="index.html">My Best Self</a>
+                  <a class="navTitle" href="index.html">MyBestSelf</a>
                 </li> 
 
                 <li class="navLink" >
-                    <a id="Artist Bio" href="resources.html">Artist Bio</a>
+                    <a id="Artist Bio" href="resources.html">ArtistBio</a>
                 </li> 
 
                 <!-- <li class="navLink" >
                     <a id="Projects" href="projects.html">Projects</a>
                 </li>  -->
-                <li class="navLink" >
-                    <a id="Portfolio" href="portfolio.html">Portfolio</a>
-                </li> 
+            
 		
 		  <div class="container">
 
@@ -28,7 +26,7 @@ style: light
             <div class="otherPagesDiv">
 
 
-                 <div class="panel-heading" id="blackWhite"> 
+                 <div class="panel-heading" id="redYellow"> 
                     <h4>projects</h4>
                 </div>                    
 
@@ -49,18 +47,17 @@ style: light
 
     </div>
    
-</nav>
 
 <div class="container">
 
         <div class=" col-lg-12">
-            <h1 class="page-header">my*best*self*My Best Self</h1>
+            <h1 class="page-header">my*best*self*MyBestSelf</h1>
         </div>
             <div class="otherPagesDiv">
 
 
                  <div class="panel-heading" id="blackWhite"> 
-                    <h4>My Best Self</h4>
+                    <h4>MyBestSelf</h4>
                 </div>                    
 
 
@@ -81,7 +78,7 @@ topics:
 		  <div class="container">
 
         <div class=" col-lg-12">
-            <h1 class="page-header">my*best*self*Artist Bio</h1>
+            <h1 class="page-header">my*best*self*ArtistBio</h1>
         </div>
             <div class="otherPagesDiv">
 
@@ -110,6 +107,8 @@ topics:
 
         </div>
     </div> 
+    
+    </nav>
 
 
 permalink: /:year/:month/:day/:title/
