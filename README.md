@@ -1,48 +1,6 @@
 layout: sidebar
 style: light
 
-plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
-  - jemoji
-
-permalink: /:year/:month/:day/:title/
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
-
-# social_media:
-  # instagram: junelibee
-  # linkedin: June Li Borgese
-  # website: https://juneliborgese.myportfolio.com
-
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 <nav>
     <div>
                     <div class="myNavDiv">
@@ -65,20 +23,20 @@ topics:
 		  <div class="container">
 
         <div class=" col-lg-12">
-            <h1 class="page-header">my*best*self*My Best Self</h1>
+            <h1 class="page-header">my*best*self*Projects</h1>
         </div>
             <div class="otherPagesDiv">
 
 
                  <div class="panel-heading" id="blackWhite"> 
-                    <h4>about the artist</h4>
+                    <h4>projects</h4>
                 </div>                    
 
 
                 <div class="panel-body">
-                    <p>June Li Borgese  </p>  
-                    <p>June </p>
-                    <p>S. </p>
+                    <p><iframe src="https://editor.p5js.org/juneli/embed/TibakEUj_"></iframe>  </p>  
+                    <p><iframe src="https://editor.p5js.org/juneli/embed/Wt7XyFfdI"></iframe> </p>
+                    <p><iframe src="https://editor.p5js.org/juneli/embed/s4QybMDD1"></iframe> </p>
 		
 	</li>
 	
@@ -96,20 +54,29 @@ topics:
 <div class="container">
 
         <div class=" col-lg-12">
-            <h1 class="page-header">my*best*self*Project</h1>
+            <h1 class="page-header">my*best*self*My Best Self</h1>
         </div>
             <div class="otherPagesDiv">
 
 
                  <div class="panel-heading" id="blackWhite"> 
-                    <h4>about the artist</h4>
+                    <h4>My Best Self</h4>
                 </div>                    
 
 
                 <div class="panel-body">
-                    <p>June </p>  
-                    <p>June e.</p>
-                    <p>She </p>
+                    <p># social_media:
+  # instagram: junelibee
+  # linkedin: June Li Borgese
+  # website: https://juneliborgese.myportfolio.com
+
+topics:
+  - name: CSS
+    web_url: https://juneliborgese.myportfolio.com
+
+ </p>  
+                    <p>i love u!! e.</p>
+                    <p>b happy </p>
 		
 		  <div class="container">
 
@@ -143,3 +110,28 @@ topics:
 
         </div>
     </div> 
+
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+  
