@@ -1,68 +1,56 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html><html><head>
+    <script src="libs/p5.js"></script>
+    <script src="libs/p5.dom.min.js"></script>
+    <script src="libs/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>June Li Borgese</title>
-      <link rel="stylesheet" href="home.css">
-</head>
 
-<!--     jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light shadow sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">i am Depressed</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Project.html">projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Design.html">Design</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">love u</a>
-        </li>
-      </ul>
+    
+    
+    
+    
+    
+  </head>
+    
+     <nav class = "topnav">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        
+          <div class="dropdown">
+    <button class="dropbtn">Projects
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index-2.html">project 1</a>
+      <a href="index-3.html">project 2</a>
+      <a href="index4.html">project 3</a>
+        <a href="index5.html">project 4</a>
+        <a href="https://editor.p5js.org/julfair/sketches/iMmA2T7No">project 5</a>
+        <a href="https://editor.p5js.org/julfair/sketches/W_wQp6A5Q">project 6</a>
+        <a href="https://editor.p5js.org/julfair/sketches/UBuZUTQIO">project 7</a>
+        <a href="https://editor.p5js.org/julfair/sketches/TVSz9efTr">project 8</a>
+        <a href="https://editor.p5js.org/julfair/sketches/woNdmAIy2">project 9</a>
+        <a href="https://editor.p5js.org/julfair/sketches/Q6gC_1nIZ">project 10</a>
+        <a href="https://editor.p5js.org/julfair/sketches/51zKHhBmk">project 11</a>
+        <a href="https://editor.p5js.org/julfair/sketches/HeBq4KBK7">project 12</a>
+        <a href="https://editor.p5js.org/mkim1001/sketches/At3tgvovy">project 13</a>
+        <a href="https://editor.p5js.org/julfair/sketches/0yZPhKtQP">project 14</a>
+        <a href="https://editor.p5js.org/julfair/sketches/I3N-OS64I">project 15</a>
+        <a href="https://editor.p5js.org/julfair/sketches/KBrjGNmSr">project 16</a>
+        <a href="https://editor.p5js.org/julfair/sketches/X2IYM95JR">project 17</a>
+        <a href="https://editor.p5js.org/julfair/sketches/QWx7SUPal">project 18</a>
+        <a href="https://editor.p5js.org/julfair/sketches/D6Pa_YuN9">project 19</a>
+        <a href="https://editor.p5js.org/julfair/sketches/Pqg83XAw5">project 20</a>
+        <a href="https://editor.p5js.org/julfair/sketches/uHLrNyugp">project 21</a>
+        <a href="https://editor.p5js.org/julfair/sketches/88PTVmsGx">project 22</a>
+        
     </div>
   </div>
-</nav>
-<body>
-<!-- Full Page Image Header with Vertically Centered Content -->
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
-        <h1 class="font-weight-light">June Li Borgese</h1>
-        <p class="lead">Glitchy as Hell</p>
-      </div>
-    </div>
-  </div>
-</header>
-  </"IMG_5052">
-    </body>
-<!-- Page Content -->
-<section class="py-5">
-  <div class="container">
-    <h6 class="font-weight-light text-center text-lg-center mt-5 mb-5">Glitch.</h6>
- 
-    <h6 class="font-weight-light"></h6>
-    <p>June Li Borgese © 2019</p>
-  </div>
-</section>
-    </html>
+</div>
+    
+    
+    
+  <body>
+    <script src="sketch.js"></script>
+  
+</body></html>
