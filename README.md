@@ -17,11 +17,10 @@
                     <h4>MyBestSelf</h4>
                 </div>                    
 
-
                 <div class="panel-body">
                     <p># social_media:
-  # instagram: junelibee
-  # linkedin: June Li Borgese
+  # instagram: https://www.instagram.com/junelibee/?hl=en
+  # linkedin: https://www.linkedin.com/in/june-li-borgese-3a7548177/
   # website: https://juneliborgese.myportfolio.com
 
 topics:
@@ -76,9 +75,9 @@ topics:
 
 
                 <div class="panel-body">
-                    <p><iframe src="https://editor.p5js.org/juneli/embed/TibakEUj_"></iframe>  </p>  
-                    <p><iframe src="https://editor.p5js.org/juneli/embed/Wt7XyFfdI"></iframe> </p>
-                    <p><iframe src="https://editor.p5js.org/juneli/embed/s4QybMDD1"></iframe> </p>
+                    <p><https://editor.p5js.org/juneli/sketches/TibakEUj_>  </p>  
+                    <p><https://editor.p5js.org/juneli/sketches/s4QybMDD1> </p>
+                    <p><https://editor.p5js.org/juneli/sketches/Wt7XyFfdI></iframe> </p>
 		
 	</li>
 	
