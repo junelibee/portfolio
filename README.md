@@ -1,5 +1,7 @@
 <layout: sidebar
+background: red
 style: light>
+My Best Self !!
 
 <nav>
     <div>
@@ -17,7 +19,6 @@ style: light>
                     <a id="Projects" href="projects.html">Projects</a>
                 </li>  -->
             
-		
 		  <div class="container">
 
         <div class=" col-lg-12">
@@ -110,27 +111,5 @@ topics:
     
     </nav>
 
-
-permalink: /:year/:month/:day/:title/
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
 
   
