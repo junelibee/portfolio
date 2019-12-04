@@ -1,7 +1,3 @@
-<layout: sidebar
-background: red
-style: light>
-My Best Self !!
 
 <nav>
     <div>
@@ -105,7 +101,6 @@ topics:
                     <p></p>
 
                     
-                    <!-- <a href="#" class="btn btn-default">Learn More</a> -->
                 </div>
 
         </div>
